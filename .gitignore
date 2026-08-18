@@ -1,0 +1,37 @@
+# Binaries and build output
+/casino
+/main
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go coverage and profiling files
+coverage.out
+coverage.html
+*.prof
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency and tool caches
+/vendor/
+/.cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
